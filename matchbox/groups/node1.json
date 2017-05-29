@@ -1,0 +1,21 @@
+{
+  "id": "node1",
+  "name": "Controller Node",
+  "profile": "bootkube-controller",
+  "selector": {
+    "mac": "84:39:be:64:4a:65"
+  },
+  "metadata": {
+    "domain_name": "node1.demo.cycore.io",
+    "etcd_initial_cluster": "node1=http://node1.demo.cycore.io:2380",
+    "etcd_name": "node1",
+    "k8s_dns_service_ip": "10.3.0.10",
+    "pxe": "true",
+    "root_disk": "/dev/mmcblk0",
+    "root_part": "/dev/mmcblk0p1",
+    "ssh_authorized_keys": [
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9Nf3sQ3dNjojEnwiZd1eqgcKLMp/oOaJDvm4tJgDim root@alarmpi",
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGMt0VwS3BkxfUX2afQ39LDa2FvzvkKTYrjJbPoAg9tf demo@matchbox"
+    ]
+  }
+}

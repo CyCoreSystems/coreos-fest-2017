@@ -1,0 +1,11 @@
+{
+  "id": "coreos-install",
+  "name": "CoreOS Install",
+  "profile": "install-reboot",
+  "metadata": {
+    "coreos_channel": "stable",
+    "coreos_version": "1357.7.0",
+    "ignition_endpoint": "http://provision.demo.cycore.io:8080/ignition",
+    "baseurl": "http://provision.demo.cycore.io:8080/assets/coreos"
+  }
+}

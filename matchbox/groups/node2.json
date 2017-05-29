@@ -1,0 +1,20 @@
+{
+  "id": "node2",
+  "name": "Worker Node",
+  "profile": "bootkube-worker",
+  "selector": {
+    "mac": "78:f2:9e:90:47:9b"
+  },
+  "metadata": {
+    "domain_name": "node2.demo.cycore.io",
+    "etcd_endpoints": "node1.demo.cycore.io:2379",
+    "k8s_dns_service_ip": "10.3.0.10",
+    "pxe": "true",
+    "root_disk": "/dev/sda",
+    "root_part": "/dev/sda1",
+    "ssh_authorized_keys": [
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9Nf3sQ3dNjojEnwiZd1eqgcKLMp/oOaJDvm4tJgDim root@alarmpi",
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGMt0VwS3BkxfUX2afQ39LDa2FvzvkKTYrjJbPoAg9tf demo@matchbox"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[Unit]
+Description=Matchbox boot service
+Documentation=https://github.com/coreos/matchbox
+
+[Service]
+User=matchbox
+Group=matchbox
+Environment="MATCHBOX_ADDRESS=0.0.0.0:8080"
+Environment="MATCHBOX_RPC_ADDRESS=0.0.0.0:8081"
+Environment="MATCHBOX_LOG_LEVEL=debug"
+ExecStart=/usr/local/sbin/matchbox
+
+ProtectHome=yes
+ProtectSystem=full
+
+Restart=always
+RestartSec=5
+TimeoutStartSec=10
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

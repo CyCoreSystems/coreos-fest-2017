@@ -1,0 +1,12 @@
+{
+  "id": "default",
+  "name": "default",
+  "profile": "etcd3-gateway",
+  "metadata": {
+    "etcd_endpoints": "node1.demo.cycore.io:2379,node2.demo.cycore.io:2379,node3.demo.cycore.io:2379",
+    "ssh_authorized_keys": [
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9Nf3sQ3dNjojEnwiZd1eqgcKLMp/oOaJDvm4tJgDim root@alarmpi",
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGMt0VwS3BkxfUX2afQ39LDa2FvzvkKTYrjJbPoAg9tf demo@matchbox"
+    ]
+  }
+}

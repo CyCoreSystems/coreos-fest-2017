@@ -1,0 +1,16 @@
+{
+  "id": "grub",
+  "name": "CoreOS via GRUB2",
+  "boot": {
+    "kernel": "(http;provision.demo.cycore.io:8080)/assets/coreos/1353.7.0/coreos_production_pxe.vmlinuz",
+    "initrd": ["(http;provision.demo.cycore.io:8080)/assets/coreos/1353.7.0/coreos_production_pxe_image.cpio.gz"],
+    "args": [
+      "coreos.config.url=http://provision.demo.cycore.io:8080/ignition",
+      "coreos.first_boot=yes",
+      "console=tty0",
+      "console=ttyS0",
+      "coreos.autologin"
+    ]
+  },
+  "ignition_id": "ssh.yaml"
+}

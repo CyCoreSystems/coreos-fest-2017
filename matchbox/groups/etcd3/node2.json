@@ -1,0 +1,17 @@
+{
+  "id": "node2",
+  "name": "etcd Node 2",
+  "profile": "etcd3",
+  "selector": {
+    "mac": "78:f2:9e:90:47:9b"
+  },
+  "metadata": {
+    "domain_name": "node2.demo.cycore.io",
+    "etcd_name": "node2",
+    "etcd_initial_cluster": "node1=http://node1.demo.cycore.io:2380,node2=http://node2.demo.cycore.io:2380,node3=http://node3.demo.cycore.io:2380",
+    "ssh_authorized_keys": [
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9Nf3sQ3dNjojEnwiZd1eqgcKLMp/oOaJDvm4tJgDim root@alarmpi",
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGMt0VwS3BkxfUX2afQ39LDa2FvzvkKTYrjJbPoAg9tf demo@matchbox"
+    ]
+  }
+}
